@@ -73,7 +73,8 @@ panel3.pack(side = 'bottom')
 button = tkinter.Button(top,text='SUBMIT',width = 30,command=lambda:display_letters(numberOfChances,wordDisplay))
 button.pack(side = 'right')
 def change_display(wordDisplay,userGuess):
-    #
+    #code for changing word displayed will be added here
+    wordDisplay
 #panel3 = tkinter.Label(top,text = userGuess,font = fontStyle).pack(side = 'bottom')
 top.mainloop()    
 
